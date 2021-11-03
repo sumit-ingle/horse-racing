@@ -11,14 +11,6 @@ public class HorseStat {
         this.distanceCovered = distanceCovered;
     }
 
-    public int getDistanceCovered() {
-        return distanceCovered;
-    }
-
-    public String getHorseName() {
-        return horseName;
-    }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
